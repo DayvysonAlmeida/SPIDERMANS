@@ -1,5 +1,9 @@
 function handleMouseEnter(){
-    this.classList.add('s-card--hovered')
+    this.classList.add('s-card--hovered');
+}
+
+function handleMouseLeave() {
+    this.classList.remove('s-card--hovered');
 }
 
 function addEventListenersToCards(){
@@ -7,7 +11,8 @@ function addEventListenersToCards(){
 
     for (let index = 0; index < cardElements.length; index++) {
         const card = cardElements [index];
-        card.addEventListener('mouseenter', handleMouseEnter)
+        card.addEventListener('mouseenter', handleMouseEnter);
+        card.addEventListener('mouseleave', handleMouseLeave);
 
         
     }
