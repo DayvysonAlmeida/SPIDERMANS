@@ -36,3 +36,10 @@ body::before {
     margin: 0 1.25rem;
     vertical-align: middle;
 }
+
+.s-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
