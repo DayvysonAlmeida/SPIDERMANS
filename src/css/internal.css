@@ -14,3 +14,20 @@
     justify-content: center;
     align-items: center;
 }
+
+.s-wrapper .s-main-content {
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+    padding-left: 30px;
+}
+
+.navigator {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
