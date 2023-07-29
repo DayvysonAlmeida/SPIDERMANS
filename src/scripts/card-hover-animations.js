@@ -1,5 +1,5 @@
 function handleMouseEnter(){
-    this.classList.add('scard--hovered')
+    this.classList.add('s-card--hovered')
 }
 
 function addEventListenersToCards(){
