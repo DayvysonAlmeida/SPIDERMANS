@@ -140,3 +140,6 @@ body#spider-man-03-hovered::before {
     background-image: url('/src/imagens/pic-sm-bg-03.jpg');
 }
 
+body[id^="spider-man-"]::before {
+    opacity: 1;
+}
