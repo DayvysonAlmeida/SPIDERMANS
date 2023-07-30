@@ -52,6 +52,17 @@ body::before {
     transition: filter .5s ease-in-out;
 }
 
+.s-card:nth-child(1) {
+  transform: rotateY(0deg) translateZ(50vw);
+}
+
+.s-card:nth-child(2) {
+  transform: rotateY(120deg) translateZ(50vw);
+}
+.s-card:nth-child(3) {
+  transform: rotateY(240deg) translateZ(50vw);
+}
+
 .s-card__background {
   width: 100%;
   height: 100%;
