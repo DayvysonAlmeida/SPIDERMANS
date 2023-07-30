@@ -31,4 +31,6 @@ function selectCarouselItem(selectedButtonElement) {
     const rotateYDeg = -120 * (Number(selectedItem) - 1);
     const newTransform = transform.replace(rotateY[0], `rotateY(${rotateYDeg}deg)`);
 
+    carousel.style.transform = newTransform;
+
 }
