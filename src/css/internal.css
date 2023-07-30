@@ -1,9 +1,9 @@
-@import url('/src/css/reset.css');
-@import url('/src/css/global.css');
-@import url('/src/css/reutilizaveis/_navigator.css');
-@import url('/src/css/reutilizaveis/_pills.css');
-@import url('/src/css/reutilizaveis/_link-button.css');
-@import url('/src/css/reutilizaveis/_gallery.css');
+@import url('./reset.css');
+@import url('./global.css');
+@import url('./reutilizaveis/_navigator.css');
+@import url('./reutilizaveis/_pills.css');
+@import url('./reutilizaveis/_link-button.css');
+@import url('./reutilizaveis/_gallery.css');
 
 .s-wrapper {
   display: flex;
