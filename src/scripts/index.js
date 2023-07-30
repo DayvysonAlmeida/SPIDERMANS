@@ -25,6 +25,8 @@ document.addEventListener("DOMContentLoaded", addEventListenersToCards, false);
 
 function selectCarouselItem(selectedButtonElement) {
     const selectItem = selectedButtonElement.id;
+    const carousel = document.querySelector('.s-cards-carousel');
+    const transform = carousel.computedStyleMap.transform;
     console.log(selectItem);
 
 }
