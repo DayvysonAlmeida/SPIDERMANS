@@ -3,6 +3,7 @@
 @import url('reutilizaveis/_navigator.css');
 @import url('reutilizaveis/_pills.css');
 @import url('reutilizaveis/_link-button.css');
+@import url('reutilizaveis/_gallery.css');
 
 .s-wrapper {
     display: flex;
@@ -74,4 +75,9 @@
 .s-wrapper .s-main-content .s-links ul {
     display: flex;
     flex-direction: row;
+}
+
+.s-spiderman-01-01 {
+    background-image: url('../imagens/spiderman-tobey/movie-01/background.png');
+    background-size: cover;
 }
