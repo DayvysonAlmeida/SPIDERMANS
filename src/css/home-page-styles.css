@@ -164,3 +164,7 @@ body[id^="spider-man-"] .s-card:not(.s-card--hovered) {
   bottom: 50%;
 }
 
+.s-cards-carousel {
+  display: flex;
+  justify-content: center;
+}
