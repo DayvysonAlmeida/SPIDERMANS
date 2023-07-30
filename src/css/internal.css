@@ -2,6 +2,7 @@
 @import url('global.css');
 @import url('reutilizaveis/_navigator.css');
 @import url('reutilizaveis/_pills.css');
+@import url('reutilizaveis/_link-button.css');
 
 .s-wrapper {
     display: flex;
