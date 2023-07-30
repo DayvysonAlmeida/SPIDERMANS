@@ -46,9 +46,9 @@ body::before {
 
 .s-card {
     border: 0.5rem solid white;
-    width: calc(100% / 3 - 8%);
+    width: calc(100vw / 3 - 10%);
     height: 70vh;
-    position: relative;
+    position: absolute;
     transition: filter .5s ease-in-out;
 }
 
